@@ -74,12 +74,11 @@ for d in dfs:
             obj.parse_and_increment(o[0])
         array_to_append.append({
             'prepositions':len(obj.prepositions),
-            'adjectives':len(obj.pronouns),
+            'adjectives':len(obj.adjectives),
             'adverbs':len(obj.adverbs),
             'pronouns':len(obj.pronouns),
             'nouns':len(obj.nouns),
             'verbs':len(obj.verbs),
-            'prepositions':len(obj.prepositions)
         })
     d['pos_tagging'] = array_to_append
 
