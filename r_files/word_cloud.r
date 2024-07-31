@@ -86,7 +86,7 @@ controlFinalDF <- data.frame(word=names(contV),freq=contV)
 
 ##########################################################################
 
-# let's build some clouds
+# build some clouds
 ## AI prompts
 set.seed(1234)
 wordcloud(words =controlFinalDF$word, freq = controlFinalDF$freq, min.freq = 1, 
